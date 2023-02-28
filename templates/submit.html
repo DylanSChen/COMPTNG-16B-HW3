@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Submit your message and name</h1>
+    <form method="post">
+      <p>Please enter your message:</p>
+      <input type="text" id="message" name="message">
+      <p>Please enter your name:</p>
+      <input type="text" id="handle" name="handle">
+      <br>
+      <br>
+      <input type="submit" value="Submit form">
+    </form>
+
+    <br>
+    {% if thanks %}
+    <b>Hello {{name}}! Thank you for submitting your message!</b>
+    {% endif %}
+{% endblock %}

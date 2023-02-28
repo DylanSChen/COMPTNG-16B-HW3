@@ -1,0 +1,57 @@
+/* Set the font family for the entire app */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Set the color scheme for the entire app */
+body {
+  color: #333;
+  background-color: #FFCC66;
+}
+
+/* Customize the header with a different color and font size */
+header {
+  background-color: #007bff;
+  font-size: 24px;
+  color: #3366FF;
+}
+
+/* Add some spacing to the main content area */
+main {
+  padding: 20px;
+}
+
+/* Style the links with an underline and a different color */
+a {
+  color: #000000;
+  text-decoration: underline;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+b {
+  color: #000000;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  color: #000000;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Style the submit button */
+button[type=submit] {
+  background-color: #3399FF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
